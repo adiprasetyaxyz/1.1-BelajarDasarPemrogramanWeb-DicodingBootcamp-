@@ -18,10 +18,13 @@ h2, h3 {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
+    color: white;
+    
   }
 
   nav a:hover {
     font-weight: bold;
+    color: blue;
   }
 
     .profile {
@@ -54,4 +57,29 @@ h2, h3 {
     display: inline;
     list-style-type: none;
     margin-right: 20px;
+    color: white; 
+  }
+
+  nav {
+    padding: 5px;
+    background-color: #00a2c6;
+    
+  }
+
+  article {
+    padding: 20px 10px;
+  }
+  main {
+    width: 100%;
+    overflow: auto;
+  }
+  #content {
+    float: left;
+    width: 75%;
+  }
+  aside {
+    float: right;
+    width: 25%;
+    padding-right: 20px;
+    box-sizing: border-box;
   }
